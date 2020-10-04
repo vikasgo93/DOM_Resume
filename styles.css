@@ -1,0 +1,146 @@
+body {
+	color:#515152;
+}
+
+.container {
+	margin-left:30%;
+	margin-right:30%;
+}
+
+#head {
+	background :#515152;
+	height:130px;
+
+}
+
+#img-container {
+	text-align:center;
+	position: relative;
+	top:30px;
+}
+
+
+img {
+	border-radius : 50%;
+	width:100px;
+	border-width: thick;
+	border:3px dotted goldenrod;
+}
+
+
+#name {
+	background-color:#fcba03;
+	margin-left:25%;
+	margin-right:25%;
+	position:relative;
+	bottom:15px;
+	height: 50px;
+	font-family: 'Varela Round', sans-serif;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+h1{
+	padding:6px;
+	text-align:center;
+}
+
+#addBar {
+	background:#515152;
+	margin-top:15px;
+	height:20px;
+	width:100%;
+}
+#address {
+	font-size:13px;
+	text-align: center;
+	margin-top:px;
+	margin-bottom:0px;
+}
+
+hr {
+	margin-top:0px;
+}
+.circle {
+	background:#515152;
+	border-radius:50%;
+	height:35px;
+	width:35px;
+	display:inline-block;
+	border-width: thick;
+	border:3px dotted goldenrod;
+}
+
+.icon {
+	font-size:20px;
+	color:#fcba03;
+	position:relative;
+	top:7px;
+	left:8px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  width:50%;
+  height: 100%;
+  box-sizing: border-box;
+  border-right:1px solid black;
+  font-family: 'Questrial', sans-serif;
+  font-size:12px;
+}
+
+.column1 {
+  float: left;
+  padding: 10px;
+  width:50%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+  font-size:12px;
+
+}
+
+.headRow {
+	text-align:center;
+
+}
+
+h2{
+	display:inline-block;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+
+p, li {
+	text-align: justify;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    width: 100px;
+    height: 5px;
+    -webkit-appearance: none;
+    background-color:lightgrey ;
+}
+    
+input[type='range']::-webkit-slider-runnable-track {
+	width: 100px;
+    height: 5px;
+    background: lightgrey;
+    border: none;
+    border-radius: 3px;
+}
+    
+input[type='range']::-webkit-slider-thumb {
+-webkit-appearance: none;
+    border: 1px solid grey;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    margin-top: -4px;
+    box-shadow: -80px 0 0 80px goldenrod;
+    
+}
